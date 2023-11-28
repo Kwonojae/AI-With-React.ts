@@ -4,6 +4,7 @@ import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 
 export default function App() {
+  //layout 만들었어
   return (
     <div className=" flex-col h-screen w-screen p-2">
       <Header />
