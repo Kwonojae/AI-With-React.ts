@@ -6,9 +6,9 @@ import Header from "./components/layout/Header";
 export default function App() {
   //layout 만들었어
   return (
-    <div className=" flex-col h-screen w-screen p-2">
+    <div className="flex flex-col h-screen w-screen p-2">
       <Header />
-      <main className="flex-1 h-full bg-slate-400">
+      <main className="flex-1 bg-slate-400">
         <Outlet />
       </main>
       <Footer />
