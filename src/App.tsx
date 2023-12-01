@@ -6,12 +6,14 @@ import Header from "./components/layout/Header";
 export default function App() {
   //layout 만들었어
   return (
-    <div className="flex flex-col h-screen w-screen p-2">
-      <Header />
-      <main className="flex-1 bg-slate-400">
-        <Outlet />
-      </main>
+    <>
+      <div className="flex flex-col h-screen w-screen ">
+        <Header />
+        <main className="flex-1">
+          <Outlet />
+        </main>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
