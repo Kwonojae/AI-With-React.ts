@@ -4,8 +4,8 @@ import App from "./App.tsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import NotFound from "./pages/NotFound.tsx";
-import Contact from "./components/layout/Contact.tsx";
 import Home from "./components/layout/Home.tsx";
+import Test from "./pages/Test.tsx";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +14,8 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { index: true, path: "/", element: <Home /> },
-      { path: "/contact", element: <Contact /> },
+      { path: "test", element: <Test /> },
+      // { path: "/contact", element: <Contact /> },
     ],
   },
 ]);
