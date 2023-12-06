@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { IoIosMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
-
 import Button from "./Button";
 import UserDropDwon from "./UserDropDwon";
 
@@ -20,7 +19,7 @@ export default function Header() {
     setNavToggle(!navToggle);
   };
   return (
-    <header className="sticky w-full h-[80px] top-0 border-b z-50 bg-white">
+    <header className=" sticky w-full h-[80px] top-0 border-b z-50 bg-white">
       <nav className="flex h-full px-10 justify-between items-center  mx-auto z-50">
         <Link to="/" className="font-Dongle text-6xl ">
           MinD

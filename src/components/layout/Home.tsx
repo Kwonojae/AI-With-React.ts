@@ -1,3 +1,84 @@
 export default function Home() {
-  return <div className="bg-white w-full h-full"></div>;
+  return (
+    <div className="bg-white w-full flex flex-col h-full">
+      <section className="bg-yellow-100 h-full">
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+        <div>sdaf</div>
+      </section>
+      <section className="bg-green-100 h-full">
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+        <div>asdf</div>
+      </section>
+    </div>
+  );
 }

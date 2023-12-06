@@ -7,13 +7,13 @@ export default function App() {
   //layout 만들었어
   return (
     <>
-      <div className="flex flex-col h-screen w-screen ">
+      <div className="flex flex-col h-screen w-screen overflow-scroll">
         <Header />
         <main className="flex-1">
           <Outlet />
         </main>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
