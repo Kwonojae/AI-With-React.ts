@@ -1,5 +1,6 @@
 export default function Home() {
   return (
+    //메인페이지 UI템플릿 완성
     <div className="bg-white w-full flex flex-col h-full">
       <section className="bg-yellow-100 h-full">
         <div>sdaf</div>
