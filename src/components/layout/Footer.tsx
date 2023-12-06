@@ -75,7 +75,10 @@ export default function Footer() {
                   >
                     FE: Kwon O Jae.
                   </Link>{" "}
-                  <Link className="underline  text-[#1da1f2]" to="">
+                  <Link
+                    className="underline  text-[#1da1f2]"
+                    to="https://github.com/siddhd12"
+                  >
                     BE & AI: Park Jang Sun
                   </Link>
                 </p>
