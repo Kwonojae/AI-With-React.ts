@@ -12,7 +12,7 @@ export default function Footer() {
     //   <div>footer</div>
     // </footer>
     <>
-      <div className="flex flex-col mx-3 bg-white rounded-lg">
+      <div className="flex flex-col bg-gray-500 ">
         <div className="w-full ">
           <div className="container flex flex-col mx-auto">
             <div className="flex flex-col items-center w-full my-7">
@@ -70,13 +70,13 @@ export default function Footer() {
                 <p className="text-base font-normal leading-7 text-center text-black">
                   2023 Winter ProJect GitHub Link Click{" "}
                   <Link
-                    className="underline  text-[#6cc644]"
+                    className="underline  text-green-300"
                     to="https://github.com/Kwonojae/AI-With-React.ts"
                   >
                     FE: Kwon O Jae.
                   </Link>{" "}
                   <Link
-                    className="underline  text-[#1da1f2]"
+                    className="underline  text-[#fee75c]"
                     to="https://github.com/siddhd12"
                   >
                     BE & AI: Park Jang Sun
