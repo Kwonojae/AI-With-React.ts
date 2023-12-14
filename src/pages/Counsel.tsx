@@ -1,9 +1,10 @@
+import "./counsel.css";
 import { RiMessage3Line } from "react-icons/ri";
 import { MdOutlineLocalPostOffice } from "react-icons/md";
 import { HiOutlineMicrophone } from "react-icons/hi";
 import { IoMdSend } from "react-icons/io";
 
-export default function Test() {
+export default function Counsel() {
   const el: HTMLElement | null = document.getElementById("messages");
   if (el) {
     //null이 아닐때만 코드 실행
@@ -11,7 +12,7 @@ export default function Test() {
   }
   return (
     <div className="max-w-full max-h-full ">
-      <div className=" flex-1 p:2 sm:p-6 justify-between flex flex-col h-screen">
+      <div className=" flex-1 p:2 sm:p-6 justify-between flex flex-col ">
         <div className="flex sm:items-center justify-between py-3 border-b-2 border-gray-200">
           <div className="relative flex items-center space-x-4">
             <div className="relative">
@@ -42,7 +43,7 @@ export default function Test() {
               <div className="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
                 <div>
                   <span className="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">
-                    Can be verified on any platform using docker 2
+                    Can be verified on any platform using docker
                   </span>
                 </div>
               </div>

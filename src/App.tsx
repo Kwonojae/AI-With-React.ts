@@ -9,7 +9,7 @@ export default function App() {
     <>
       <div className="flex flex-col h-screen w-screen   bg-cover bg-mainpage bg-no-repeat">
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 overflow-scroll">
           <Outlet />
         </main>
       </div>

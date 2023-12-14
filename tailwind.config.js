@@ -14,7 +14,7 @@ export default {
         "Gothic" : ["Gothic A1", "sans-serif"]
       },
       backgroundImage: {
-        'mainpage': "url('./public/assets/images/diane-theresa-hendrick-fTtKfpmn03c-unsplash.jpg')"
+        'mainpage': "url('./public/assets/images/soliman-cifuentes-VmJUc3hzcEY-unsplash.jpg')"
       }
     },
   },

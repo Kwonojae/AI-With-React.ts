@@ -6,7 +6,7 @@ import Button from "./Button";
 import UserDropDwon from "./UserDropDwon";
 
 const LILISTSTYLE =
-  "ease-in-out hover:border-b-2 text-black hover:border-gray-500 text-lg  ";
+  "ease-in-out hover:border-b-2 text-black hover:border-black text-lg  ";
 
 export default function Header() {
   const [navToggle, setNavToggle] = useState(false);
