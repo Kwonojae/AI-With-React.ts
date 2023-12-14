@@ -12,6 +12,9 @@ export default {
         "Noto" : ["Noto Sans KR", 'sans-serif'],
         "Dongle" : ["Dongle","sans-serif"],
         "Gothic" : ["Gothic A1", "sans-serif"]
+      },
+      backgroundImage: {
+        'mainpage': "url('./public/assets/images/soliman-cifuentes-VmJUc3hzcEY-unsplash.jpg')"
       }
     },
   },
